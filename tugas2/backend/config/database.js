@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 const db = new Sequelize('db_notes', 'root', '', {
-    host: 'localhost', //klo udah deploy pake ip server database
+    host: '34.122.2.50', //klo udah deploy pake ip server database
     dialect: 'mysql'
 })
 
