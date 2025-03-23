@@ -7,6 +7,6 @@ app.use(cors())
 app.use(express.json())
 app.use(Route)
 
-app.listen(5000, ()=> {
-    console.log("server is running");
+app.listen(8080, '0,0,0,0',  ()=> {
+    console.log("server running on port 8080");
 });
